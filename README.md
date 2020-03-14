@@ -2,4 +2,4 @@
 
 An SVG dashboard illustration animated using anime.js
 
-Checkout its integration in https://www.qwantum.be/
+Checkout its integration on https://www.qwantum.be/

@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+/*--- DASHBOARD ---*/
+.dashboard-cls-1 {
+    stroke: #eee;
+    stroke-width: 370px;
+  }
+  .dashboard-cls-2 {
+    fill: url(#grad1);
+  }
+  .dashboard-cls-3 {
+    fill: #fff;
+  }
+  .dashboard-lines {
+    stroke: #ddd;
+  }
+  #dashboard-curve {
+    fill: url(#dashboard-grad);
+    stroke: url(#dashboard-grad);
+    stroke-width: 4px;
+  }
+  
+  body {
+    margin: 0;
+    height: 100vh;
+  }
+  .container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    justify-content: center;
+    align-items: center;
+  }
+  .container svg {
+    width: 50%;
+  }
+  @media all and (max-width:400px) {
+    .container svg {
+      width: 90%;
+    }
+  }
+  @media all and (max-width:1025px) {
+    .container svg {
+      width: 70%;
+    }
+  }
+
+  
